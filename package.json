@@ -1,0 +1,28 @@
+{
+  "name": "roc-plugin-running",
+  "version": "1.0.0",
+  "description": "rest-on-couch (ROC) plugin for running entries",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require should --recursive",
+    "build": "mkdir -p dist && browserify src/index.js  --ignore-missing --global-transform=bulkify --standalone=rocPluginRunning > dist/roc-plugin-running.js"
+  },
+  "keywords": [
+    "roc",
+    "rest-on-couch",
+    "plugin"
+  ],
+  "author": "Daniel Kostro <kostro.d@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulk-require": "^0.2.1",
+    "bulkify": "^1.2.0",
+    "roc-plugin": "github:cheminfo/roc-plugin",
+    "route-stat": "github:stropitek/route-stat"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.2",
+    "mocha-better-spec-reporter": "^3.0.2"
+  }
+}
