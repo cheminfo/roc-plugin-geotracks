@@ -21,8 +21,9 @@
     "route-stat": "github:stropitek/route-stat"
   },
   "devDependencies": {
+    "browserify": "^13.1.0",
     "mocha": "^2.5.3",
-    "should": "^9.0.2",
-    "mocha-better-spec-reporter": "^3.0.2"
+    "mocha-better-spec-reporter": "^3.0.2",
+    "should": "^9.0.2"
   }
 }
