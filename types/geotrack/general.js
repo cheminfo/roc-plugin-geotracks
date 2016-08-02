@@ -1,6 +1,6 @@
 'use strict';
 
-exports = {
+module.exports = {
     jpath: ['general'],
     getEmpty: {
         title: 'untitled',

@@ -1,11 +1,11 @@
 {
   "name": "roc-plugin-geotracks",
   "version": "1.0.0",
-  "description": "rest-on-couch (ROC) plugin for running entries",
+  "description": "rest-on-couch (ROC) plugin for gps entries",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --require should --recursive",
-    "build": "mkdir -p dist && browserify src/index.js  --ignore-missing --global-transform=bulkify --standalone=rocPluginRunning > dist/roc-plugin-geotracks.js"
+    "build": "mkdir -p dist && browserify src/index.js  --ignore-missing --global-transform=bulkify --standalone=rocPluginGeotracks > dist/roc-plugin-geotracks.js"
   },
   "keywords": [
     "roc",
