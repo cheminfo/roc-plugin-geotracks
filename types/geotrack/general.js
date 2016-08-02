@@ -2,8 +2,10 @@
 
 module.exports = {
     jpath: ['general'],
-    getEmpty: {
-        title: 'untitled',
-        splitRules: []
+    getEmpty: function () {
+        return {
+            title: 'untitled',
+            splitRules: []
+        };
     }
 };
